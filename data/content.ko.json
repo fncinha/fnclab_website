@@ -1,0 +1,746 @@
+{
+  "site": {
+    "labName": "유동소음제어연구실",
+    "labNameShort": "FNC Lab",
+    "labNameEn": "Flow Noise Control Laboratory",
+    "affiliation": "인하대학교 기계공학과",
+    "domain": "fnc.inha.ac.kr"
+  },
+  "nav": [
+    {
+      "id": "home",
+      "label": "홈"
+    },
+    {
+      "id": "about",
+      "label": "연구실 소개"
+    },
+    {
+      "id": "people",
+      "label": "구성원"
+    },
+    {
+      "id": "research",
+      "label": "연구 분야"
+    },
+    {
+      "id": "publications",
+      "label": "논문"
+    },
+    {
+      "id": "projects",
+      "label": "프로젝트"
+    },
+    {
+      "id": "recruit",
+      "label": "모집"
+    },
+    {
+      "id": "contact",
+      "label": "연락처"
+    }
+  ],
+  "hero": {
+    "eyebrow": "인하대학교 기계공학과",
+    "title": "유동소음제어연구실",
+    "subtitle": "유동에서 발생하는 소음의 원리를 규명하고, 유체기계의 효율과 정숙성을 함께 끌어올리는 연구를 합니다.",
+    "metaLine": "인하대학교 기계공학과 · 2N280B",
+    "image": "assets/hero-cfd.jpg",
+    "imageCaption": "CFD 기반 팬 공력소음 시뮬레이션"
+  },
+  "stats": [
+    {
+      "value": "6",
+      "label": "Research areas"
+    },
+    {
+      "value": "20+",
+      "label": "Years of research"
+    },
+    {
+      "value": "4",
+      "label": "Core facilities"
+    },
+    {
+      "value": "40+",
+      "label": "Alumni"
+    }
+  ],
+  "about": {
+    "title": "연구실 소개",
+    "lead": "유동소음제어연구실(FNC Lab)은 유체기계, 공력음향, 유압·제어를 아우르는 연구를 수행한다. 기초 유동 물리부터 실제 제품 설계까지 다룬다.",
+    "paragraphs": [
+      "연구 분야는 다충실도 유체기계 최적설계, 가전제품 설계, 공력음향 및 소음제어, 건설기계 유압·제어, 미세먼지 거동 해석, 풍력·풍동 시험 등이다.",
+      "고충실도 CFD와 전산공력음향(CAA)을 다중물리 해석 체계 안에서 결합하여 비정상 유동 구조를 규명하고, 소음이 발생하는 메커니즘을 추적한다.",
+      "연구실은 디지털 풍동, 무향실, 유압 시험장치, 유동 계측 장비, 사내 설계 소프트웨어를 갖추고 폭넓은 연구개발을 수행한다."
+    ],
+    "highlights": [
+      {
+        "src": "assets/highlight-fan-sw.jpg",
+        "caption": "사내 유체기계 설계 소프트웨어"
+      },
+      {
+        "src": "assets/highlight-air-sw.png",
+        "caption": "가전제품 설계 및 유동 시뮬레이션"
+      },
+      {
+        "src": "assets/highlight-acoustic.png",
+        "caption": "공력음향 측정 및 음원 가시화"
+      },
+      {
+        "src": "assets/highlight-dust.jpg",
+        "caption": "미세먼지 거동 해석 및 제어"
+      }
+    ],
+    "tagline": "유체기계 · 공력음향 · 유압·제어"
+  },
+  "principles": [
+    {
+      "n": "01",
+      "title": "원리에서 제품까지",
+      "body": "현상에 대한 물리적 이해 없이 좋은 설계는 없습니다. 이론·해석·실험을 모두 다룹니다."
+    },
+    {
+      "n": "02",
+      "title": "조용함은 효율이다",
+      "body": "소음을 줄이는 것은 손실을 줄이는 것입니다. 정숙성과 성능을 분리해서 생각하지 않습니다."
+    },
+    {
+      "n": "03",
+      "title": "함께 성장하는 연구실",
+      "body": "선후배와 산업체 멘토, 협력 네트워크 안에서 함께 배우고 함께 만듭니다."
+    }
+  ],
+  "research": [
+    {
+      "id": "turbo-opt",
+      "title": "다충실도 유체기계 최적설계",
+      "img": "assets/gallery/idesignfan-03.jpg",
+      "tags": [
+        "Turbomachinery",
+        "Multi-Fidelity",
+        "ML"
+      ],
+      "body": "다충실도 CFD와 기계학습 대리모델을 이용해 축류·원심 팬을 설계·최적화한다. 사내 iDesignFan 체계를 기반으로 공력 효율을 극대화하면서 소음을 최소화한다.",
+      "links": [
+        {
+          "title": "ServUair — 팬 모델 선정 (Fan Model Selection)",
+          "desc": "직경·S.P.L·풍량을 입력하면 조건에 맞는 팬 모델을 찾아주는 사이트.",
+          "url": "http://servuair.com/"
+        }
+      ],
+      "videos": [
+        {
+          "id": "u2XLh4RsuU8",
+          "title": "'다품질 CFD와 M.L 설계 알고리즘을 이용한 홴 임팰러의 공력 및 소음최적 설계' 2025 KFMA 동계학술대회 강연"
+        }
+      ]
+    },
+    {
+      "id": "appliance",
+      "title": "가전제품 설계",
+      "img": "assets/gallery/purifier-04.jpg",
+      "tags": [
+        "Appliance",
+        "CFD",
+        "iDesignAir"
+      ],
+      "body": "공기청정기 등 가전제품의 팬·필터·유로를 통합 설계한다. iDesignAir로 풍량·청정성능·소음을 함께 최적화한다.",
+      "videos": [
+        {
+          "id": "GN-RkdfoSpA",
+          "title": "미세먼지연구센터 스마트 주방후드 기술 소개 및 비교 시연",
+          "thumb": "assets/video-appliance-thumb.jpg"
+        }
+      ],
+      "links": [
+        {
+          "title": "AeroNet · 스마트 주방후드 (Life Style Innovation Range Hood)",
+          "url": "https://aeronet.kr/menu03-01/",
+          "desc": "융합기술을 적용한 신개발 주방후드. 기존 대비 배출능력 20% 이상 향상, CO₂·미세먼지 센서 기반 AI 자동운전으로 조리 시 강력 배출, 평상시 자연환기 역할."
+        }
+      ]
+    },
+    {
+      "id": "acoustics",
+      "title": "공력음향 및 소음제어",
+      "img": "assets/gallery/overview-11.jpg",
+      "tags": [
+        "Aeroacoustics",
+        "Beamforming",
+        "Anechoic"
+      ],
+      "body": "유동 소음의 예측·측정·제어를 수행한다. 하이브리드 CFD/CAA, 무향실 음향파워 측정, 위상배열 빔포밍으로 음원을 규명하고 저감한다."
+    },
+    {
+      "id": "hydraulics",
+      "title": "건설기계 유압·제어",
+      "img": "assets/gallery/swarm-01.jpg",
+      "tags": [
+        "Hydraulics",
+        "MCV",
+        "Control"
+      ],
+      "body": "건설기계 유압 시스템을 모델링하고 제어한다. MCV 동특성부터 다수 장비의 군집제어까지 다루어 응답성·안정성·효율을 확보한다.",
+      "links": [
+        {
+          "title": "건설기계미래융합기술 전문인력양성사업",
+          "url": "assets/docs/SDM-project-intro.pdf",
+          "desc": "군집제어·SW 정의 기반 건설기계(SDM) 전문인력양성사업 소개 자료 (KIAT·KOCETI)."
+        },
+        {
+          "title": "3D기반 건설기계 설계해석 전문인력양성사업",
+          "url": "assets/docs/3D-project-intro.pdf",
+          "desc": "3D 기반 건설기계 설계·해석 전문인력양성사업 소개 자료 (KIAT·KOCEMA)."
+        }
+      ]
+    },
+    {
+      "id": "micro-dust",
+      "title": "미세먼지 거동 해석",
+      "img": "assets/gallery/microdust-ventilation.jpg",
+      "tags": [
+        "Particulate",
+        "Dispersion",
+        "Air Quality"
+      ],
+      "body": "항만·공항 등 대규모 공간의 미세먼지 거동을 시뮬레이션하고 저감 방안을 설계한다. AIR WINDOW 차폐와 수직정원 시스템을 포함한다.",
+      "links": [
+        {
+          "title": "인하대학교 미세먼지 연구센터",
+          "desc": "미세먼지 관련 인벤토리 평가, 인천 시민·전문가 소통을 통한 사회적 문제 해결, 학문적 미세먼지 솔루션을 연구하는 인하대학교 미세먼지 연구센터.",
+          "url": "http://microdustcenter.com/"
+        }
+      ]
+    },
+    {
+      "id": "wind",
+      "title": "풍력·풍동 시험",
+      "img": "assets/gallery/wind-03.jpg",
+      "tags": [
+        "Wind Energy",
+        "Wind Tunnel",
+        "Testing"
+      ],
+      "body": "풍력 에너지를 연구하고, 온도·습도·풍속을 실시간 제어하는 디지털 풍동에서 공력·열·음향 성능을 통합 시험한다.",
+      "links": [
+        {
+          "title": "AeroNet · 풍력발전 (AN Windjet)",
+          "url": "https://aeronet.kr/menu05-01/",
+          "desc": "혁신적 수직축 풍력발전기 AN Windjet — 고효율 공기역학 설계, 조류 충돌·소음 문제가 적은 저소음(40dBA 이하) 구조로 분산발전형 Community Wind Farm에 적합."
+        }
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "title": "무향실 · 음향 측정",
+      "body": "Sound power 측정 및 음원 위치 추적(빔포밍)을 위한 무향실과 구면 마이크로폰 어레이.",
+      "img": "assets/fac-anechoic.jpeg"
+    },
+    {
+      "title": "디지털 풍동 · Climate Wind Tunnel",
+      "body": "온도·습도·풍속 실시간 모니터링이 가능한 디지털 풍동 시뮬레이션 환경.",
+      "img": "assets/fac-windtunnel.jpg"
+    },
+    {
+      "title": "음향 카메라 · 빔포밍",
+      "body": "실내 공간의 소음원 위치를 가시화하는 빔포밍 음향 카메라 측정.",
+      "img": "assets/fac-beamforming.jpg"
+    },
+    {
+      "title": "PIV · 유동 가시화",
+      "body": "레이저 시트와 입자로 유동 구조를 관찰하는 PIV 및 연기 가시화 장비.",
+      "img": "assets/fac-laser.jpg"
+    }
+  ],
+  "professor": {
+    "name": "이승배",
+    "nameEn": "Seungbae Lee",
+    "title": "교수 / 연구책임자",
+    "email": "sbaelee@inha.ac.kr",
+    "office": "인하대학교 2N280B",
+    "phone": "032-860-7325",
+    "photo": "assets/prof.jpg",
+    "bio": "유동소음·유체기계·전산유체역학(CFD)·다중물리 3차원 해석 분야의 연구자입니다. UCLA에서 Large-Eddy Simulation 기반 공력음향 연구로 박사학위를 받았으며, 삼성전자 유동팀장을 거쳐 1996년부터 인하대학교 기계공학과 교수로 재직 중입니다. 현재 인하대 미세먼지연구센터 센터장을 맡고 있습니다.",
+    "interests": [
+      "유동소음",
+      "유체기계",
+      "유체역학",
+      "다중물리 3차원해석",
+      "CFD",
+      "고효율 팬 설계"
+    ],
+    "thesis": "Subgrid-scale Modeling in Large-Eddy Simulation and Its Application to Aerosound",
+    "education": [
+      {
+        "period": "1988–1992",
+        "school": "University of California, Los Angeles (UCLA)",
+        "degree": "기계공학 공학박사",
+        "note": "지도교수 William C. Meecham"
+      },
+      {
+        "period": "1985–1987",
+        "school": "서울대학교 대학원",
+        "degree": "기계공학 공학석사",
+        "note": "지도교수 강신형"
+      },
+      {
+        "period": "1981–1985",
+        "school": "서울대학교",
+        "degree": "기계공학 공학사",
+        "note": ""
+      }
+    ],
+    "career": [
+      {
+        "period": "2019–현재",
+        "role": "인하대학교 미세먼지연구센터 센터장"
+      },
+      {
+        "period": "2015–현재",
+        "role": "인하대학교 건설기계공학전공 교수"
+      },
+      {
+        "period": "1996–현재",
+        "role": "인하대학교 기계공학과 교수 (학과장 역임)"
+      },
+      {
+        "period": "2007–2009",
+        "role": "인하대학교 연구처 연구개발본부장"
+      },
+      {
+        "period": "2003–2004",
+        "role": "Von Karman Institute / Caltech 방문교수"
+      },
+      {
+        "period": "1993–1996",
+        "role": "삼성전자 생활시스템연구소 유동팀장 (선임연구원)"
+      }
+    ],
+    "patents": [
+      {
+        "title": "주 날개 및 보조 날개를 구비한 임펠러",
+        "no": "KR10-2083168",
+        "year": "2020"
+      },
+      {
+        "title": "Impeller having Primary blades and secondary blades",
+        "no": "PCT WO2019-093576A1",
+        "year": "2019"
+      },
+      {
+        "title": "풍분포를 이용한 분산발전형 풍력터빈의 모니터링 및 스마트그리드 제어방법",
+        "no": "KR10-1826667",
+        "year": "2018"
+      }
+    ]
+  },
+  "members": {
+    "phd": [
+      {
+        "name": "김OO",
+        "role": "박사과정",
+        "topic": "홴날개 Topology 최적설계"
+      },
+      {
+        "name": "이OO",
+        "role": "박사과정",
+        "topic": "미세먼지 확산 해석"
+      },
+      {
+        "name": "박OO",
+        "role": "박사과정 수료",
+        "topic": "유압밸브 Dynamics"
+      }
+    ],
+    "ms": [
+      {
+        "name": "정OO",
+        "role": "석사과정",
+        "topic": "자연모사 프로펠러"
+      },
+      {
+        "name": "최OO",
+        "role": "석사과정",
+        "topic": "엔진룸 소음해석"
+      },
+      {
+        "name": "윤OO",
+        "role": "석사과정",
+        "topic": "공기청정기 유동"
+      },
+      {
+        "name": "강OO",
+        "role": "석사과정",
+        "topic": "빔포밍 음향 측정"
+      }
+    ],
+    "undergrad": [
+      {
+        "name": "학부연구생 2명",
+        "role": "학부연구생",
+        "topic": ""
+      }
+    ]
+  },
+  "publications": [
+    {
+      "year": "2025",
+      "date": "2025.12",
+      "type": "학술대회",
+      "title": "다품질 CFD와 M.L. 설계 알고리즘을 이용한 홴 임펠러의 공력 및 소음 최적설계",
+      "venue": "한국유체기계학회 동계학술대회",
+      "authors": "염태영 외 3명"
+    },
+    {
+      "year": "2025",
+      "date": "2025.07",
+      "type": "학술대회",
+      "title": "Multi-Fidelity Design of Multi-Curvature Fan Blade Based on Machine Learning of Vortex Strength and Efficiency",
+      "venue": "ASME IDETC 2025",
+      "authors": "염태영 외 2명"
+    },
+    {
+      "year": "2025",
+      "date": "2025.06",
+      "type": "학술대회",
+      "title": "와동강도분포를 이용한 자동차용 냉각홴의 다곡률 설계",
+      "venue": "한국유체기계학회 하계학술대회",
+      "authors": "염태영 외 5명"
+    },
+    {
+      "year": "2024",
+      "type": "저서",
+      "title": "다중물리 3차원 해석",
+      "venue": "집필 (ISBN 979-11-92979-08-3)",
+      "authors": "이승배"
+    },
+    {
+      "year": "2021",
+      "type": "저서",
+      "title": "유체기계 설계",
+      "venue": "집필 (ISBN 978-89-91105-96-6)",
+      "authors": "이승배"
+    }
+  ],
+  "projects": [
+    {
+      "year": "2026–",
+      "title": "데이터센터 공랭식 FAN 냉각 핵심부품 고효율 EC FAN 개발",
+      "sponsor": "중소벤처기업부(MSS) · ㈜탑에어",
+      "role": ""
+    },
+    {
+      "year": "2025–",
+      "title": "건설기계미래융합기술 전문인력양성사업",
+      "sponsor": "한국산업기술진흥원(KIAT) · 한국건설기계부품연구원(KOCETI)",
+      "role": "",
+      "url": "assets/docs/SDM-project-intro.pdf"
+    },
+    {
+      "year": "2022–",
+      "title": "3D기반 건설기계 설계해석 전문인력양성사업",
+      "sponsor": "한국산업기술진흥원(KIAT) · 한국건설기계산업협회(KOCEMA)",
+      "role": "",
+      "url": "assets/docs/3D-project-intro.pdf"
+    },
+    {
+      "year": "2020–2025",
+      "title": "스마트 건설기계 전문인력양성사업",
+      "sponsor": "한국산업기술진흥원(KIAT) · 한국건설기계부품연구원(KOCETI)",
+      "role": ""
+    },
+    {
+      "year": "2022–2024",
+      "title": "PAV 상용화를 위한 25kW급 전기추진 시스템 핵심부품 개발",
+      "sponsor": "중소벤처기업부(MSS) · ㈜경인기계",
+      "role": "총괄책임"
+    },
+    {
+      "year": "2018–2021",
+      "title": "유인 자율운항을 위한 멀티콥터형 비행제어 시스템 개발",
+      "sponsor": "한국산업기술진흥원(KIAT) · ㈜숨비",
+      "role": "연구책임"
+    },
+    {
+      "year": "2016–2020",
+      "title": "4톤급 지게차 엔진룸 총합 열관리시스템 및 소음저감 기술 개발",
+      "sponsor": "한국산업기술기획평가원(KEIT) · 한국건설기계부품연구원(KOCETI)",
+      "role": "연구책임"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026.04",
+      "tag": "Project",
+      "title": "건설기계 미래인력양성 사업 연차 평가 우수"
+    },
+    {
+      "date": "2026.03",
+      "tag": "Research",
+      "title": "iDesignFan 자동설계 S/W 업데이트 배포"
+    },
+    {
+      "date": "2026.02",
+      "tag": "Publication",
+      "title": "미세먼지 확산 해석 논문 국제저널 게재 확정"
+    },
+    {
+      "date": "2026.01",
+      "tag": "Recruit",
+      "title": "2026년 가을학기 대학원생 모집 (석·박사)"
+    }
+  ],
+  "recruit": {
+    "title": "함께 연구할 학생을 찾습니다",
+    "lead": "유동·음향·기계 설계에 관심이 있는 학부생/대학원 진학 희망자의 연락을 환영합니다.",
+    "items": [
+      {
+        "title": "석·박사 과정",
+        "body": "유체역학, CFD, 음향에 관심이 있는 분. 학부 성적, 영어 능력보다 끈기와 호기심을 봅니다."
+      },
+      {
+        "title": "학부 연구생",
+        "body": "3·4학년 학기/방학 중 단기 연구 참여 가능. CFD 입문, 실험 보조부터 시작합니다."
+      },
+      {
+        "title": "산업체 위탁",
+        "body": "현장 엔지니어의 사내 박사과정·위탁 연구 협력 가능합니다."
+      }
+    ],
+    "cta": "메일로 간단한 자기소개와 관심 주제를 보내주세요."
+  },
+  "contact": {
+    "address": "인천광역시 미추홀구 인하로 100, 인하대학교 기계공학과 2N280B",
+    "addressShort": "2N280B",
+    "email": "sbaelee@inha.ac.kr",
+    "phone": "032-860-7325",
+    "hours": "평일 09:00 – 18:00"
+  },
+  "footer": {
+    "copyright": "© 2026 Flow Noise Control Laboratory, Inha University.",
+    "credit": "Department of Mechanical Engineering"
+  },
+  "ui": {
+    "viewAll": "전체 보기",
+    "relatedImages": "관련 연구 자료",
+    "noImages": "관련 이미지는 추후 추가될 예정입니다.",
+    "education": "학력",
+    "career": "경력",
+    "patents": "대표 특허",
+    "resources": "참고 링크",
+    "visitSite": "사이트 방문",
+    "videos": "영상",
+    "watchVideo": "유튜브에서 영상 보기"
+  },
+  "gallery": [
+    {
+      "id": "turbo-opt",
+      "images": [
+        {
+          "src": "assets/gallery/idesignfan-01.jpg",
+          "caption": "iDesignFan 축류형"
+        },
+        {
+          "src": "assets/gallery/idesignfan-02.jpg",
+          "caption": "iDesignFan 원심형"
+        },
+        {
+          "src": "assets/gallery/idesignfan-03.jpg",
+          "caption": "축류형 Fan CAD 모델"
+        },
+        {
+          "src": "assets/gallery/idesignfan-05.jpg",
+          "caption": "원심형 Fan CAD 모델"
+        },
+        {
+          "src": "assets/gallery/idesignfan-centrifugal-blade.jpg",
+          "caption": "원심형 Fan 블레이드 형상 설계"
+        },
+        {
+          "src": "assets/gallery/idesignfan-08.jpg",
+          "caption": "최적화 기법별 효율 비교"
+        },
+        {
+          "src": "assets/gallery/idesignfan-axial-blade.jpg",
+          "caption": "축류형 Fan 블레이드 형상 설계"
+        },
+        {
+          "src": "assets/gallery/cfd-1.jpg",
+          "caption": "원심팬 유동장 (속도·압력·와도)"
+        },
+        {
+          "src": "assets/gallery/cfd-4.jpg",
+          "caption": "3차원 유동 가시화"
+        },
+        {
+          "src": "assets/links/servuair.jpg",
+          "caption": "ServUair — 팬 모델 선정 화면"
+        }
+      ]
+    },
+    {
+      "id": "appliance",
+      "images": [
+        {
+          "src": "assets/gallery/appliance-hood.jpg",
+          "caption": "Life Style Innovation Range Hood — 융합기술 적용 스마트 주방후드"
+        },
+        {
+          "src": "assets/gallery/purifier-05.jpg",
+          "caption": "iDesignAir 설계 화면"
+        },
+        {
+          "src": "assets/gallery/purifier-10.jpg",
+          "caption": "iDesignAir 설계 변수 입력"
+        },
+        {
+          "src": "assets/gallery/purifier-01.jpg",
+          "caption": "가전제품 형상 라이브러리"
+        },
+        {
+          "src": "assets/gallery/purifier-04.jpg",
+          "caption": "공기청정기 내부 통합 설계"
+        },
+        {
+          "src": "assets/gallery/purifier-03.jpg",
+          "caption": "공기청정기 제품 형상"
+        },
+        {
+          "src": "assets/gallery/purifier-06.jpg",
+          "caption": "원통형 필터"
+        },
+        {
+          "src": "assets/gallery/purifier-07.jpg",
+          "caption": "필터 소재 검토"
+        },
+        {
+          "src": "assets/gallery/purifier-02.jpg",
+          "caption": "축류 팬 렌더링"
+        },
+        {
+          "src": "assets/gallery/purifier-08.jpg",
+          "caption": "다익 팬 렌더링"
+        },
+        {
+          "src": "assets/gallery/purifier-09.jpg",
+          "caption": "원심 팬 렌더링"
+        },
+        {
+          "src": "assets/gallery/cfd-5.jpg",
+          "caption": "가전제품 유동 시뮬레이션"
+        }
+      ]
+    },
+    {
+      "id": "acoustics",
+      "images": [
+        {
+          "src": "assets/gallery/overview-04.jpg",
+          "caption": "무향실 구면 마이크로폰 어레이"
+        },
+        {
+          "src": "assets/gallery/overview-11.jpg",
+          "caption": "빔포밍 음원 위치 측정"
+        },
+        {
+          "src": "assets/gallery/overview-02.jpg",
+          "caption": "엔진룸 표면 압력·유선 해석"
+        },
+        {
+          "src": "assets/gallery/overview-03.jpg",
+          "caption": "지게차 엔진룸"
+        }
+      ]
+    },
+    {
+      "id": "hydraulics",
+      "images": [
+        {
+          "src": "assets/gallery/swarm-01.jpg",
+          "caption": "건설기계 군집제어 실험 (RC 테스트베드)"
+        },
+        {
+          "src": "assets/gallery/overview-05.jpg",
+          "caption": "유압밸브 시험 장치 (MCV)"
+        },
+        {
+          "src": "assets/gallery/overview-06.jpg",
+          "caption": "유압 시스템 제어 회로도"
+        }
+      ]
+    },
+    {
+      "id": "micro-dust",
+      "images": [
+        {
+          "src": "assets/gallery/microdust-ventilation.jpg",
+          "caption": "실내공간 유효환기량 측정 — 미세먼지를 발생시켜 Volume을 채운 뒤 환기능력을 측정한다."
+        },
+        {
+          "src": "assets/gallery/microdust-reverb.jpg",
+          "caption": "실내공간 잔향 특성 측정 — 주파수대역별로 잔향을 측정·분석하여 부족한 부분을 보완한다."
+        },
+        {
+          "src": "assets/gallery/dust-01.jpg",
+          "caption": "공항 — 미세먼지 발생원"
+        },
+        {
+          "src": "assets/gallery/dust-04.png",
+          "caption": "미세먼지 확산 시뮬레이션"
+        },
+        {
+          "src": "assets/gallery/idesignfan-04.jpg",
+          "caption": "입자 확산 해석"
+        },
+        {
+          "src": "assets/gallery/dust-03.jpg",
+          "caption": "AIR WINDOW 수직정원 시스템"
+        },
+        {
+          "src": "assets/gallery/dust-02.jpg",
+          "caption": "PIV 레이저 유동 가시화"
+        },
+        {
+          "src": "assets/gallery/overview-10.jpg",
+          "caption": "실내 공간 미세먼지 거동"
+        }
+      ]
+    },
+    {
+      "id": "wind",
+      "images": [
+        {
+          "src": "assets/gallery/wind-01.jpg",
+          "caption": "AN Windjet 작동 원리 — 터빈·인버터·발전기 구성"
+        },
+        {
+          "src": "assets/gallery/wind-02.jpg",
+          "caption": "모니터링·타워·배터리 시스템 구성"
+        },
+        {
+          "src": "assets/gallery/wind-03.jpg",
+          "caption": "AN-DR6K 6kW 수직축 Dual Rotor 터빈 — 성능 곡선·사양"
+        },
+        {
+          "src": "assets/gallery/wind-04.jpg",
+          "caption": "다양한 적용 사례 — 분산발전·빌딩 옥상·설치 실적"
+        },
+        {
+          "src": "assets/gallery/wind-05.jpg",
+          "caption": "수직축 WindJet vs 일반 풍력터빈 비교 및 Wind Farm 장점"
+        },
+        {
+          "src": "assets/gallery/wind-06.jpg",
+          "caption": "풍력 관련 특허"
+        },
+        {
+          "src": "assets/gallery/windtunnel-01.jpg",
+          "caption": "디지털 풍동 (Climate Wind Tunnel)"
+        }
+      ]
+    }
+  ],
+  "researchLead": "여섯 개의 연구 축 — 유체기계 최적설계, 가전 유동, 공력음향, 건설기계 유압·제어, 미세먼지, 풍력. 각 분야를 눌러 대표 성과와 자료를 볼 수 있다."
+}

@@ -1,0 +1,746 @@
+{
+  "site": {
+    "labName": "Flow Noise Control Laboratory",
+    "labNameShort": "FNC Lab",
+    "labNameEn": "Flow Noise Control Laboratory",
+    "affiliation": "Department of Mechanical Engineering, Inha University",
+    "domain": "fnc.inha.ac.kr"
+  },
+  "nav": [
+    {
+      "id": "home",
+      "label": "Home"
+    },
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "people",
+      "label": "People"
+    },
+    {
+      "id": "research",
+      "label": "Research"
+    },
+    {
+      "id": "publications",
+      "label": "Publications"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
+    },
+    {
+      "id": "recruit",
+      "label": "Recruit"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Department of Mechanical Engineering · Inha University",
+    "title": "Flow Noise Control Laboratory",
+    "subtitle": "We study the physics of flow-induced noise and design turbomachinery that runs efficiently and quietly.",
+    "metaLine": "Inha University · ME Dept · Rm 2N280B",
+    "image": "assets/hero-cfd.jpg",
+    "imageCaption": "CFD-based aerodynamic noise simulation of a fan"
+  },
+  "stats": [
+    {
+      "value": "6",
+      "label": "Research areas"
+    },
+    {
+      "value": "20+",
+      "label": "Years of research"
+    },
+    {
+      "value": "4",
+      "label": "Core facilities"
+    },
+    {
+      "value": "40+",
+      "label": "Alumni"
+    }
+  ],
+  "about": {
+    "title": "About the Lab",
+    "lead": "The Flow Noise Control Laboratory (FNC Lab) works at the intersection of turbomachinery, aeroacoustics, and fluid power — from fundamental flow physics to production-ready machine design.",
+    "paragraphs": [
+      "Our work spans multi-fidelity turbomachinery optimization, appliance design, aeroacoustics and noise control, construction-machinery hydraulics and control, micro-dust transport, and wind energy.",
+      "We pair high-fidelity CFD with computational aeroacoustics in a multiphysics framework to resolve unsteady flow structures and trace the mechanisms that generate noise.",
+      "The lab is equipped with a climate wind tunnel, an anechoic chamber, hydraulic test rigs, flow-diagnostic instrumentation, and in-house design software that supports a broad R&D portfolio."
+    ],
+    "highlights": [
+      {
+        "src": "assets/highlight-fan-sw.jpg",
+        "caption": "In-house turbomachinery design software"
+      },
+      {
+        "src": "assets/highlight-air-sw.png",
+        "caption": "Appliance design & flow simulation"
+      },
+      {
+        "src": "assets/highlight-acoustic.png",
+        "caption": "Aeroacoustic measurement & source imaging"
+      },
+      {
+        "src": "assets/highlight-dust.jpg",
+        "caption": "Particulate transport & control"
+      }
+    ],
+    "tagline": "Turbomachinery · Aeroacoustics · Fluid Power"
+  },
+  "principles": [
+    {
+      "n": "01",
+      "title": "Principles to product",
+      "body": "Good design starts from physical understanding. We work across theory, simulation, and experiment."
+    },
+    {
+      "n": "02",
+      "title": "Quiet is efficient",
+      "body": "Reducing noise means reducing losses. We refuse to separate silence from performance."
+    },
+    {
+      "n": "03",
+      "title": "A lab that grows together",
+      "body": "Peers, industry mentors, and a collaborative network — we learn and build together."
+    }
+  ],
+  "research": [
+    {
+      "id": "turbo-opt",
+      "title": "Multi-Fidelity Turbomachinery Optimization",
+      "img": "assets/gallery/idesignfan-03.jpg",
+      "tags": [
+        "Turbomachinery",
+        "Multi-Fidelity",
+        "ML Optimization"
+      ],
+      "body": "Design and optimization of axial and centrifugal fans using multi-fidelity CFD and machine-learning surrogates, built on our in-house iDesignFan framework to maximize aerodynamic efficiency while minimizing noise.",
+      "links": [
+        {
+          "title": "ServUair — Fan Model Selection",
+          "desc": "Enter diameter, S.P.L, and volume flow rate to find a matching fan model.",
+          "url": "http://servuair.com/"
+        }
+      ],
+      "videos": [
+        {
+          "id": "u2XLh4RsuU8",
+          "title": "“Aerodynamic & Aeroacoustic Optimization of Fan Impellers via Multi-Fidelity CFD and ML Design Algorithms” — Invited Lecture, KFMA 2025 Winter Conference"
+        }
+      ]
+    },
+    {
+      "id": "appliance",
+      "title": "Appliance Design",
+      "img": "assets/gallery/purifier-04.jpg",
+      "tags": [
+        "Appliance",
+        "CFD",
+        "iDesignAir"
+      ],
+      "body": "Integrated design of fans, filters, and flow paths for home appliances such as air purifiers — co-optimizing airflow, clean-air delivery, and acoustic performance with our iDesignAir toolset.",
+      "videos": [
+        {
+          "id": "GN-RkdfoSpA",
+          "title": "Micro Dust Research Center: Smart Range-Hood Technology — Overview & Comparative Demo",
+          "thumb": "assets/video-appliance-thumb.jpg"
+        }
+      ],
+      "links": [
+        {
+          "title": "AeroNet · Life Style Innovation Range Hood",
+          "url": "https://aeronet.kr/menu03-01/",
+          "desc": "A next-generation range hood applying convergence technology — over 20% higher exhaust capacity, with CO₂ and particulate-matter sensors enabling AI auto-operation for strong extraction while cooking and natural ventilation at rest."
+        }
+      ]
+    },
+    {
+      "id": "acoustics",
+      "title": "Aeroacoustics & Noise Control",
+      "img": "assets/gallery/overview-11.jpg",
+      "tags": [
+        "Aeroacoustics",
+        "Beamforming",
+        "Anechoic"
+      ],
+      "body": "Prediction, measurement, and control of flow-induced noise — combining hybrid CFD/CAA, anechoic sound-power testing, and phased-array beamforming to localize and reduce noise sources."
+    },
+    {
+      "id": "hydraulics",
+      "title": "Construction-Machinery Hydraulics & Control",
+      "img": "assets/gallery/swarm-01.jpg",
+      "tags": [
+        "Hydraulics",
+        "MCV",
+        "Controls"
+      ],
+      "body": "Modeling and control of hydraulic systems for construction machinery — from main control valve (MCV) dynamics to multi-machine swarm coordination — for responsive, stable, and efficient operation.",
+      "links": [
+        {
+          "title": "Software-Defined Machine Workforce Development Program for Construction Equipment",
+          "url": "assets/docs/SDM-project-intro.pdf",
+          "desc": "Program overview for the Software-Defined Machine (SDM) workforce project, covering swarm control for construction machinery (KIAT · KOCETI)."
+        },
+        {
+          "title": "3D-Based Construction Equipment Design & Analysis Workforce Development Program",
+          "url": "assets/docs/3D-project-intro.pdf",
+          "desc": "Program overview for the 3D-based construction-equipment design & analysis workforce project (KIAT · KOCEMA)."
+        }
+      ]
+    },
+    {
+      "id": "micro-dust",
+      "title": "Micro-dust Study",
+      "img": "assets/gallery/microdust-ventilation.jpg",
+      "tags": [
+        "Particulate",
+        "Dispersion",
+        "Air Quality"
+      ],
+      "body": "Simulation and mitigation of particulate-matter transport across large spaces such as ports and airports, including AIR WINDOW barriers and vegetative filtration systems.",
+      "links": [
+        {
+          "title": "Inha University Micro Dust Research Center",
+          "desc": "Inha University's Micro Dust Research Center — inventory assessment of particulate matter, social problem-solving through dialogue with Incheon citizens and experts, and academic micro-dust solutions.",
+          "url": "http://microdustcenter.com/"
+        }
+      ]
+    },
+    {
+      "id": "wind",
+      "title": "Wind Energy & Wind Tunnel",
+      "img": "assets/gallery/wind-03.jpg",
+      "tags": [
+        "Wind Energy",
+        "Wind Tunnel",
+        "Testing"
+      ],
+      "body": "Wind-energy research and integrated aerodynamic, thermal, and acoustic testing in a digital climate wind tunnel with real-time control of temperature, humidity, and wind speed.",
+      "links": [
+        {
+          "title": "AeroNet · Wind Power (AN Windjet)",
+          "url": "https://aeronet.kr/menu05-01/",
+          "desc": "AN Windjet, an innovative vertical-axis wind turbine — high-efficiency aerodynamic design with low-noise (< 40 dBA) operation and reduced bird-strike risk, suited to distributed community wind farms."
+        }
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "title": "Anechoic Chamber · Acoustics",
+      "body": "Anechoic chamber and spherical microphone array for sound-power measurement and beamforming source localization.",
+      "img": "assets/fac-anechoic.jpeg"
+    },
+    {
+      "title": "Digital Wind Tunnel",
+      "body": "A climate wind-tunnel environment with real-time monitoring of temperature, humidity, and wind speed.",
+      "img": "assets/fac-windtunnel.jpg"
+    },
+    {
+      "title": "Acoustic Camera · Beamforming",
+      "body": "Beamforming acoustic-camera measurement that visualizes noise-source locations in indoor spaces.",
+      "img": "assets/fac-beamforming.jpg"
+    },
+    {
+      "title": "PIV · Flow Visualization",
+      "body": "PIV and smoke-visualization equipment observing flow structures with a laser sheet and seeding particles.",
+      "img": "assets/fac-laser.jpg"
+    }
+  ],
+  "professor": {
+    "name": "Seungbae Lee",
+    "nameEn": "Seungbae Lee",
+    "title": "Professor / Principal Investigator",
+    "email": "sbaelee@inha.ac.kr",
+    "office": "Rm 2N280B, Inha University",
+    "phone": "+82-32-860-7325",
+    "photo": "assets/prof.jpg",
+    "bio": "A researcher in flow-induced noise, turbomachinery, CFD, and multiphysics 3D analysis. He earned his Ph.D. at UCLA on Large-Eddy-Simulation-based aeroacoustics, led the Flow Team at Samsung Electronics, and has been a professor in Mechanical Engineering at Inha University since 1996. He currently directs the Fine Dust Research Center at Inha University.",
+    "interests": [
+      "Flow Noise",
+      "Turbomachinery",
+      "Fluid Mechanics",
+      "Multiphysics 3D Analysis",
+      "CFD",
+      "High-Efficiency Fan"
+    ],
+    "thesis": "Subgrid-scale Modeling in Large-Eddy Simulation and Its Application to Aerosound",
+    "education": [
+      {
+        "period": "1988–1992",
+        "school": "University of California, Los Angeles (UCLA)",
+        "degree": "Ph.D. in Mechanical Engineering",
+        "note": "Advisor: William C. Meecham"
+      },
+      {
+        "period": "1985–1987",
+        "school": "Seoul National University",
+        "degree": "M.S. in Mechanical Engineering",
+        "note": "Advisor: Shin-Hyoung Kang"
+      },
+      {
+        "period": "1981–1985",
+        "school": "Seoul National University",
+        "degree": "B.S. in Mechanical Engineering",
+        "note": ""
+      }
+    ],
+    "career": [
+      {
+        "period": "2019–present",
+        "role": "Director, Fine Dust Research Center, Inha University"
+      },
+      {
+        "period": "2015–present",
+        "role": "Professor, Construction Machinery Engineering, Inha University"
+      },
+      {
+        "period": "1996–present",
+        "role": "Professor, Dept. of Mechanical Engineering, Inha University (former Chair)"
+      },
+      {
+        "period": "2007–2009",
+        "role": "Director of R&D, Office of Research, Inha University"
+      },
+      {
+        "period": "2003–2004",
+        "role": "Visiting Professor, Von Karman Institute / Caltech"
+      },
+      {
+        "period": "1993–1996",
+        "role": "Flow Team Leader (Senior Researcher), Samsung Electronics Living System Lab"
+      }
+    ],
+    "patents": [
+      {
+        "title": "Impeller with primary and secondary blades",
+        "no": "KR10-2083168",
+        "year": "2020"
+      },
+      {
+        "title": "Impeller having Primary blades and secondary blades",
+        "no": "PCT WO2019-093576A1",
+        "year": "2019"
+      },
+      {
+        "title": "Monitoring & smart-grid control of distributed wind turbines using wind distribution",
+        "no": "KR10-1826667",
+        "year": "2018"
+      }
+    ]
+  },
+  "members": {
+    "phd": [
+      {
+        "name": "K. Kim",
+        "role": "Ph.D. Candidate",
+        "topic": "Fan-blade topology optimization"
+      },
+      {
+        "name": "J. Lee",
+        "role": "Ph.D. Candidate",
+        "topic": "Micro-dust dispersion analysis"
+      },
+      {
+        "name": "M. Park",
+        "role": "Ph.D. (ABD)",
+        "topic": "Hydraulic valve dynamics"
+      }
+    ],
+    "ms": [
+      {
+        "name": "Y. Jung",
+        "role": "M.S. Student",
+        "topic": "Bio-inspired propellers"
+      },
+      {
+        "name": "S. Choi",
+        "role": "M.S. Student",
+        "topic": "Engine-room noise analysis"
+      },
+      {
+        "name": "H. Yoon",
+        "role": "M.S. Student",
+        "topic": "Air-purifier flow"
+      },
+      {
+        "name": "D. Kang",
+        "role": "M.S. Student",
+        "topic": "Beamforming acoustics"
+      }
+    ],
+    "undergrad": [
+      {
+        "name": "2 Undergraduate Researchers",
+        "role": "Undergraduate",
+        "topic": ""
+      }
+    ]
+  },
+  "publications": [
+    {
+      "year": "2025",
+      "date": "2025.12",
+      "type": "Conference",
+      "title": "Aerodynamic & acoustic optimization of a fan impeller using multi-fidelity CFD and ML design algorithms",
+      "venue": "KSFM Winter Conference",
+      "authors": "T. Yeom et al."
+    },
+    {
+      "year": "2025",
+      "date": "2025.07",
+      "type": "Conference",
+      "title": "Multi-Fidelity Design of Multi-Curvature Fan Blade Based on Machine Learning of Vortex Strength and Efficiency",
+      "venue": "ASME IDETC 2025",
+      "authors": "T. Yeom et al."
+    },
+    {
+      "year": "2025",
+      "date": "2025.06",
+      "type": "Conference",
+      "title": "Multi-curvature design of an automotive cooling fan using vortex-strength distribution",
+      "venue": "KSFM Summer Conference",
+      "authors": "T. Yeom et al."
+    },
+    {
+      "year": "2024",
+      "type": "Book",
+      "title": "Multiphysics 3D Analysis",
+      "venue": "Authored (ISBN 979-11-92979-08-3)",
+      "authors": "S. Lee"
+    },
+    {
+      "year": "2021",
+      "type": "Book",
+      "title": "Turbomachinery Design",
+      "venue": "Authored (ISBN 978-89-91105-96-6)",
+      "authors": "S. Lee"
+    }
+  ],
+  "projects": [
+    {
+      "year": "2026–",
+      "title": "High-efficiency EC fan: core cooling component for air-cooled data-center fans",
+      "sponsor": "MSS · TopAir",
+      "role": ""
+    },
+    {
+      "year": "2025–",
+      "title": "Software-Defined Machine Workforce Development Program for Construction Equipment",
+      "sponsor": "KIAT · KOCETI",
+      "role": "",
+      "url": "assets/docs/SDM-project-intro.pdf"
+    },
+    {
+      "year": "2022–",
+      "title": "3D-Based Construction Equipment Design & Analysis Workforce Development Program",
+      "sponsor": "KIAT · KOCEMA",
+      "role": "",
+      "url": "assets/docs/3D-project-intro.pdf"
+    },
+    {
+      "year": "2020–2025",
+      "title": "Workforce Development in Smart Construction Machinery",
+      "sponsor": "KIAT · KOCETI",
+      "role": ""
+    },
+    {
+      "year": "2022–2024",
+      "title": "Core components of a 25 kW electric propulsion system for PAV commercialization",
+      "sponsor": "MSS · Kyungin Machinery",
+      "role": "Overall PI"
+    },
+    {
+      "year": "2018–2021",
+      "title": "Multicopter flight-control system for manned autonomous operation",
+      "sponsor": "KIAT · Soombi",
+      "role": "PI"
+    },
+    {
+      "year": "2016–2020",
+      "title": "Integrated thermal management & noise reduction of a 4-ton forklift engine room",
+      "sponsor": "KEIT · KOCETI",
+      "role": "PI"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026.04",
+      "tag": "Project",
+      "title": "Excellent rating in the annual review of the construction-machinery workforce program"
+    },
+    {
+      "date": "2026.03",
+      "tag": "Research",
+      "title": "iDesignFan automated design software update released"
+    },
+    {
+      "date": "2026.02",
+      "tag": "Publication",
+      "title": "Micro-dust dispersion paper accepted to an international journal"
+    },
+    {
+      "date": "2026.01",
+      "tag": "Recruit",
+      "title": "Fall 2026 graduate student admissions open (M.S./Ph.D.)"
+    }
+  ],
+  "recruit": {
+    "title": "We are looking for students to work with us.",
+    "lead": "Students interested in fluids, acoustics, or mechanical design — we welcome your inquiries.",
+    "items": [
+      {
+        "title": "M.S. / Ph.D. Students",
+        "body": "Interest in fluid mechanics, CFD, and acoustics matters more than perfect grades. We look for persistence and curiosity."
+      },
+      {
+        "title": "Undergraduate Researchers",
+        "body": "Short-term research during the semester or breaks — starting with CFD basics and lab assistance."
+      },
+      {
+        "title": "Industry-Linked Programs",
+        "body": "On-the-job Ph.D. tracks and contract research with industry are welcome."
+      }
+    ],
+    "cta": "Send a short intro and your topic of interest by email."
+  },
+  "contact": {
+    "address": "100 Inha-ro, Michuhol-gu, Incheon · Rm 2N280B, ME Dept., Inha University",
+    "addressShort": "Rm 2N280B",
+    "email": "sbaelee@inha.ac.kr",
+    "phone": "+82-32-860-7325",
+    "hours": "Weekdays 09:00 – 18:00"
+  },
+  "footer": {
+    "copyright": "© 2026 Flow Noise Control Laboratory, Inha University.",
+    "credit": "Department of Mechanical Engineering"
+  },
+  "ui": {
+    "viewAll": "View all",
+    "relatedImages": "Related images",
+    "noImages": "Images will be added soon.",
+    "education": "Education",
+    "career": "Career",
+    "patents": "Patents",
+    "resources": "Resources",
+    "visitSite": "Visit site",
+    "videos": "Videos",
+    "watchVideo": "Watch on YouTube"
+  },
+  "gallery": [
+    {
+      "id": "turbo-opt",
+      "images": [
+        {
+          "src": "assets/gallery/idesignfan-01.jpg",
+          "caption": "iDesignFan — axial"
+        },
+        {
+          "src": "assets/gallery/idesignfan-02.jpg",
+          "caption": "iDesignFan — centrifugal"
+        },
+        {
+          "src": "assets/gallery/idesignfan-03.jpg",
+          "caption": "Axial fan CAD model"
+        },
+        {
+          "src": "assets/gallery/idesignfan-05.jpg",
+          "caption": "Centrifugal fan CAD model"
+        },
+        {
+          "src": "assets/gallery/idesignfan-centrifugal-blade.jpg",
+          "caption": "Centrifugal fan blade-shape design"
+        },
+        {
+          "src": "assets/gallery/idesignfan-08.jpg",
+          "caption": "Efficiency by optimization scheme"
+        },
+        {
+          "src": "assets/gallery/idesignfan-axial-blade.jpg",
+          "caption": "Axial fan blade-shape design"
+        },
+        {
+          "src": "assets/gallery/cfd-1.jpg",
+          "caption": "Centrifugal fan flow field (velocity / pressure / vorticity)"
+        },
+        {
+          "src": "assets/gallery/cfd-4.jpg",
+          "caption": "3D flow visualization"
+        },
+        {
+          "src": "assets/links/servuair.jpg",
+          "caption": "ServUair — fan model selection"
+        }
+      ]
+    },
+    {
+      "id": "appliance",
+      "images": [
+        {
+          "src": "assets/gallery/appliance-hood.jpg",
+          "caption": "Life Style Innovation Range Hood — smart range hood with convergence technology"
+        },
+        {
+          "src": "assets/gallery/purifier-05.jpg",
+          "caption": "iDesignAir design screen"
+        },
+        {
+          "src": "assets/gallery/purifier-10.jpg",
+          "caption": "iDesignAir parameter input"
+        },
+        {
+          "src": "assets/gallery/purifier-01.jpg",
+          "caption": "Appliance geometry library"
+        },
+        {
+          "src": "assets/gallery/purifier-04.jpg",
+          "caption": "Air-purifier internal integrated design"
+        },
+        {
+          "src": "assets/gallery/purifier-03.jpg",
+          "caption": "Air-purifier product geometry"
+        },
+        {
+          "src": "assets/gallery/purifier-06.jpg",
+          "caption": "Cylindrical filter"
+        },
+        {
+          "src": "assets/gallery/purifier-07.jpg",
+          "caption": "Filter material study"
+        },
+        {
+          "src": "assets/gallery/purifier-02.jpg",
+          "caption": "Axial fan rendering"
+        },
+        {
+          "src": "assets/gallery/purifier-08.jpg",
+          "caption": "Multi-blade fan rendering"
+        },
+        {
+          "src": "assets/gallery/purifier-09.jpg",
+          "caption": "Centrifugal fan rendering"
+        },
+        {
+          "src": "assets/gallery/cfd-5.jpg",
+          "caption": "Appliance flow simulation"
+        }
+      ]
+    },
+    {
+      "id": "acoustics",
+      "images": [
+        {
+          "src": "assets/gallery/overview-04.jpg",
+          "caption": "Anechoic spherical microphone array"
+        },
+        {
+          "src": "assets/gallery/overview-11.jpg",
+          "caption": "Beamforming source localization"
+        },
+        {
+          "src": "assets/gallery/overview-02.jpg",
+          "caption": "Engine-room surface pressure & streamlines"
+        },
+        {
+          "src": "assets/gallery/overview-03.jpg",
+          "caption": "Forklift engine room"
+        }
+      ]
+    },
+    {
+      "id": "hydraulics",
+      "images": [
+        {
+          "src": "assets/gallery/swarm-01.jpg",
+          "caption": "Swarm-control testbed for construction machinery (RC)"
+        },
+        {
+          "src": "assets/gallery/overview-05.jpg",
+          "caption": "Hydraulic valve test rig (MCV)"
+        },
+        {
+          "src": "assets/gallery/overview-06.jpg",
+          "caption": "Hydraulic system control circuit"
+        }
+      ]
+    },
+    {
+      "id": "micro-dust",
+      "images": [
+        {
+          "src": "assets/gallery/microdust-ventilation.jpg",
+          "caption": "Effective ventilation-rate measurement of an indoor space — micro-dust fills the volume, then ventilation capacity is measured."
+        },
+        {
+          "src": "assets/gallery/microdust-reverb.jpg",
+          "caption": "Reverberation measurement of an indoor space — reverberation is measured and analyzed by frequency band to remedy deficiencies."
+        },
+        {
+          "src": "assets/gallery/dust-01.jpg",
+          "caption": "Airport — a micro-dust source"
+        },
+        {
+          "src": "assets/gallery/dust-04.png",
+          "caption": "Micro-dust dispersion simulation"
+        },
+        {
+          "src": "assets/gallery/idesignfan-04.jpg",
+          "caption": "Particle dispersion analysis"
+        },
+        {
+          "src": "assets/gallery/dust-03.jpg",
+          "caption": "AIR WINDOW vertical-garden system"
+        },
+        {
+          "src": "assets/gallery/dust-02.jpg",
+          "caption": "PIV laser flow visualization"
+        },
+        {
+          "src": "assets/gallery/overview-10.jpg",
+          "caption": "Micro-dust behavior in an indoor space"
+        }
+      ]
+    },
+    {
+      "id": "wind",
+      "images": [
+        {
+          "src": "assets/gallery/wind-01.jpg",
+          "caption": "AN Windjet — how it works: turbine, inverter, generator"
+        },
+        {
+          "src": "assets/gallery/wind-02.jpg",
+          "caption": "Monitoring, tower & battery system configuration"
+        },
+        {
+          "src": "assets/gallery/wind-03.jpg",
+          "caption": "AN-DR6K 6kW vertical-axis dual-rotor turbine — performance curves & specs"
+        },
+        {
+          "src": "assets/gallery/wind-04.jpg",
+          "caption": "Applications — distributed generation, rooftop, field installations"
+        },
+        {
+          "src": "assets/gallery/wind-05.jpg",
+          "caption": "Vertical-axis WindJet vs conventional turbines & wind-farm advantages"
+        },
+        {
+          "src": "assets/gallery/wind-06.jpg",
+          "caption": "Wind-energy-related patents"
+        },
+        {
+          "src": "assets/gallery/windtunnel-01.jpg",
+          "caption": "Digital wind tunnel (Climate Wind Tunnel)"
+        }
+      ]
+    }
+  ],
+  "researchLead": "Six research thrusts — turbomachinery optimization, appliance flow, aeroacoustics, construction-machinery hydraulics & control, micro-dust, and wind energy. Select an area to see representative work and resources."
+}
