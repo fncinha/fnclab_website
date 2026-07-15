@@ -1,7 +1,7 @@
 {
   "site": {
     "labName": "Flow Noise Control Laboratory",
-    "labNameShort": "FNC Lab",
+    "labNameShort": "Flow Noise Control Laboratory",
     "labNameEn": "Flow Noise Control Laboratory",
     "affiliation": "Department of Mechanical Engineering, Inha University",
     "domain": "fnc.inha.ac.kr"
@@ -76,7 +76,7 @@
     ],
     "highlights": [
       {
-        "src": "assets/highlight-fan-sw.jpg",
+        "src": "assets/highlight-fan-sw.png",
         "caption": "In-house turbomachinery design software"
       },
       {
@@ -88,7 +88,7 @@
         "caption": "Aeroacoustic measurement & source imaging"
       },
       {
-        "src": "assets/highlight-dust.jpg",
+        "src": "assets/highlight-dust.png",
         "caption": "Particulate transport & control"
       }
     ],
@@ -241,17 +241,17 @@
     {
       "title": "Digital Wind Tunnel",
       "body": "A climate wind-tunnel environment with real-time monitoring of temperature, humidity, and wind speed.",
-      "img": "assets/fac-windtunnel.jpg"
+      "img": "assets/fac-windtunnel.png"
     },
     {
       "title": "Acoustic Camera · Beamforming",
       "body": "Beamforming acoustic-camera measurement that visualizes noise-source locations in indoor spaces.",
-      "img": "assets/fac-beamforming.jpg"
+      "img": "assets/fac-beamforming.png"
     },
     {
       "title": "PIV · Flow Visualization",
       "body": "PIV and smoke-visualization equipment observing flow structures with a laser sheet and seeding particles.",
-      "img": "assets/fac-laser.jpg"
+      "img": "assets/fac-laser.png"
     }
   ],
   "professor": {
@@ -687,7 +687,7 @@
           "caption": "Airport — a micro-dust source"
         },
         {
-          "src": "assets/gallery/dust-04.png",
+          "src": "assets/gallery/dust-04.jpg",
           "caption": "Micro-dust dispersion simulation"
         },
         {

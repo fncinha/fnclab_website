@@ -9,7 +9,7 @@ const wrap = { maxWidth: 1320, margin: '0 auto', padding: '0 56px' };
 // Page title header used at top of each inner page
 function PageHead({ eyebrow, title, sub }) {
   return (
-    <div style={{ ...wrap, paddingTop: 72, paddingBottom: 8 }}>
+    <div className="fnc-head" style={{ ...wrap, paddingTop: 72, paddingBottom: 8 }}>
       <div style={{ width: 48, height: 3, background: T.blue, marginBottom: 24 }} />
       <div className="eyebrow" style={{ color: T.blue, marginBottom: 14 }}>{eyebrow}</div>
       <h1 style={{ fontSize: 52, fontWeight: 600, letterSpacing: '-0.03em', lineHeight: 1.08 }}>
@@ -34,22 +34,21 @@ function HomePage({ c, go }) {
     <div>
       {/* Hero */}
       <section style={{ ...wrap, paddingTop: 96, paddingBottom: 120 }}>
-        <div style={{ display: 'grid', gridTemplateColumns: '1.05fr 0.95fr', gap: 56,
+        <div className="r-hero" style={{ display: 'grid', gridTemplateColumns: '1.05fr 0.95fr', gap: 56,
           alignItems: 'center' }}>
           <div>
             <div style={{ width: 48, height: 3, background: T.blue, marginBottom: 28 }} />
             <div className="eyebrow" style={{ marginBottom: 24, color: T.blue }}>
               {c.hero.eyebrow}
             </div>
-            <h1 style={{
-              fontSize: isKo ? 'clamp(32px, 6.4vw, 76px)' : 'clamp(24px, 4.6vw, 62px)',
+            <h1 className="r-hero-h1" style={{
               lineHeight: 1.05, fontWeight: 600, letterSpacing: '-0.03em',
               marginBottom: isKo ? 10 : 28, whiteSpace: 'nowrap',
             }}>
               {c.hero.title}
             </h1>
             {isKo && (
-              <div style={{
+              <div className="r-hero-sub" style={{
                 fontSize: 'clamp(16px, 2.4vw, 28px)', fontWeight: 600,
                 letterSpacing: '-0.01em', color: T.ink70, marginBottom: 28,
                 whiteSpace: 'nowrap',
@@ -62,8 +61,8 @@ function HomePage({ c, go }) {
               {c.hero.subtitle}
             </p>
             <div style={{ display: 'flex', gap: 12 }}>
-              <a href="#/about" style={btnPrimary}>{navLabel(c,'about')} →</a>
-              <a href="#/research" style={btnGhost}>{navLabel(c,'research')}</a>
+              <a href="#/about" className="fnc-btn" style={btnPrimary}>{navLabel(c,'about')} →</a>
+              <a href="#/research" className="fnc-btn" style={btnGhost}>{navLabel(c,'research')}</a>
             </div>
           </div>
           <div>
@@ -92,7 +91,7 @@ function AboutPage({ c }) {
       {/* Representative images */}
       {c.about.highlights && (
         <section style={{ ...wrap, paddingTop: 40 }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
+          <div className="r-high" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 16 }}>
             {c.about.highlights.map((h, i) => (
               <figure key={i} style={{ margin: 0 }}>
                 <div style={{ aspectRatio: '4 / 3', background: T.paper,
@@ -125,7 +124,7 @@ function AboutPage({ c }) {
         <div className="eyebrow" style={{ color: T.blue, marginBottom: 32 }}>
           Principal Investigator
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: '300px 1fr 1fr', gap: 48,
+        <div className="r-pi" style={{ display: 'grid', gridTemplateColumns: '300px 1fr 1fr', gap: 48,
           alignItems: 'start' }}>
           <LabImg src={c.professor.photo} label="PROF" ratio="3 / 4" bg={T.blueDeep} />
           <div>
@@ -166,7 +165,7 @@ function AboutPage({ c }) {
         </div>
 
         {/* CV: Education / Career / Patents */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 56,
+        <div className="r-cv" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 56,
           marginTop: 64, paddingTop: 48, borderTop: `1px solid ${T.rule}` }}>
           {c.professor.education && (
             <div>
@@ -213,12 +212,12 @@ function AboutPage({ c }) {
             {c.professor.patents.map((p, i) => (
               <div key={i} style={{ display: 'grid', gridTemplateColumns: '70px 1fr 220px',
                 gap: 20, alignItems: 'baseline', padding: '14px 0',
-                borderTop: i === 0 ? 'none' : `1px solid ${T.rule}` }}>
+                borderTop: i === 0 ? 'none' : `1px solid ${T.rule}` }} className="r-pat">
                 <span className="mono" style={{ fontSize: 13, color: T.blue }}>{p.year}</span>
                 <div style={{ fontSize: 15, letterSpacing: '-0.01em', lineHeight: 1.45 }}>
                   {p.title}
                 </div>
-                <div className="mono" style={{ fontSize: 12, color: T.ink50 }}>{p.no}</div>
+                <div className="mono r-pat-no" style={{ fontSize: 12, color: T.ink50 }}>{p.no}</div>
               </div>
             ))}
           </div>
@@ -236,7 +235,7 @@ function ResearchPage({ c }) {
     <div>
       <PageHead eyebrow="Research" title={navLabel(c, 'research')} sub={c.researchLead} />
       <section style={{ ...wrap, paddingTop: 48, paddingBottom: 88 }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24 }}>
+        <div className="r-rlist" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 24 }}>
           {c.research.map((r, i) => (
             <a key={r.id} href={`#/research/${r.id}`} style={{
               background: T.paper, border: `1px solid ${T.rule}`, overflow: 'hidden',
@@ -365,7 +364,7 @@ function ResearchDetailPage({ c, id }) {
           <div className="eyebrow" style={{ color: T.blue, marginBottom: 16 }}>
             {c.ui ? c.ui.videos : 'Videos'}
           </div>
-          <div style={{ display: 'grid',
+          <div className="r-vids" style={{ display: 'grid',
             gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 360px))',
             gap: 24 }}>
             {r.videos.map((v, i) => (
@@ -450,7 +449,7 @@ function ProjectsPage({ c }) {
       <PageHead eyebrow="Projects" title={navLabel(c, 'projects')} />
       <section style={{ ...wrap, paddingTop: 40, paddingBottom: 88 }}>
         {c.projects.map((p, i) => (
-          <div key={i} style={{ display: 'grid', gridTemplateColumns: '140px 1fr 240px 90px',
+          <div key={i} className="r-proj" style={{ display: 'grid', gridTemplateColumns: '140px 1fr 240px 90px',
             alignItems: 'baseline', gap: 24, padding: '26px 0',
             borderTop: `1px solid ${T.rule}` }}>
             <span className="mono" style={{ fontSize: 14, color: T.blue }}>{p.year}</span>
@@ -464,7 +463,7 @@ function ProjectsPage({ c }) {
               ) : p.title}
             </div>
             <div style={{ fontSize: 14.5, color: T.ink70 }}>{p.sponsor}</div>
-            <div style={{ fontSize: 12, color: T.ink50, textAlign: 'right' }}>{p.role}</div>
+            <div className="r-proj-role" style={{ fontSize: 12, color: T.ink50, textAlign: 'right' }}>{p.role}</div>
           </div>
         ))}
       </section>
@@ -484,7 +483,7 @@ function PublicationsPage({ c }) {
         {years.map(y => (
           <div key={y} style={{ marginBottom: 8 }}>
             {c.publications.filter(p => p.year === y).map((p, i, arr) => (
-              <div key={i} style={{ display: 'grid', gridTemplateColumns: '70px 1fr 300px 110px',
+              <div key={i} className="r-pub" style={{ display: 'grid', gridTemplateColumns: '70px 1fr 300px 110px',
                 alignItems: 'baseline', gap: 24, padding: '22px 0',
                 borderTop: `1px solid ${T.rule}` }}>
                 <span className="mono" style={{ fontSize: 14, color: T.blue }}>
@@ -498,7 +497,7 @@ function PublicationsPage({ c }) {
                   </div>
                 </div>
                 <div style={{ fontSize: 14, fontStyle: 'italic', color: T.ink70 }}>{p.venue}</div>
-                <div className="mono" style={{ fontSize: 11, color: T.ink50, textAlign: 'right' }}>
+                <div className="mono r-pub-type" style={{ fontSize: 11, color: T.ink50, textAlign: 'right' }}>
                   {p.type}
                 </div>
               </div>

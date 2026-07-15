@@ -1,7 +1,7 @@
 {
   "site": {
     "labName": "유동소음제어연구실",
-    "labNameShort": "FNC Lab",
+    "labNameShort": "유동소음제어연구실",
     "labNameEn": "Flow Noise Control Laboratory",
     "affiliation": "인하대학교 기계공학과",
     "domain": "fnc.inha.ac.kr"
@@ -70,13 +70,13 @@
     "title": "연구실 소개",
     "lead": "유동소음제어연구실(FNC Lab)은 유체기계, 공력음향, 유압·제어를 아우르는 연구를 수행한다. 기초 유동 물리부터 실제 제품 설계까지 다룬다.",
     "paragraphs": [
-      "연구 분야는 다충실도 유체기계 최적설계, 가전제품 설계, 공력음향 및 소음제어, 건설기계 유압·제어, 미세먼지 거동 해석, 풍력·풍동 시험 등이다.",
+      "연구 분야는 다품질 유체기계 최적설계, 가전제품 설계, 공력음향 및 소음제어, 건설기계 유압·제어, 미세먼지 거동 해석, 풍력·풍동 시험 등이다.",
       "고충실도 CFD와 전산공력음향(CAA)을 다중물리 해석 체계 안에서 결합하여 비정상 유동 구조를 규명하고, 소음이 발생하는 메커니즘을 추적한다.",
       "연구실은 디지털 풍동, 무향실, 유압 시험장치, 유동 계측 장비, 사내 설계 소프트웨어를 갖추고 폭넓은 연구개발을 수행한다."
     ],
     "highlights": [
       {
-        "src": "assets/highlight-fan-sw.jpg",
+        "src": "assets/highlight-fan-sw.png",
         "caption": "사내 유체기계 설계 소프트웨어"
       },
       {
@@ -88,7 +88,7 @@
         "caption": "공력음향 측정 및 음원 가시화"
       },
       {
-        "src": "assets/highlight-dust.jpg",
+        "src": "assets/highlight-dust.png",
         "caption": "미세먼지 거동 해석 및 제어"
       }
     ],
@@ -114,14 +114,14 @@
   "research": [
     {
       "id": "turbo-opt",
-      "title": "다충실도 유체기계 최적설계",
+      "title": "다품질 유체기계 최적설계",
       "img": "assets/gallery/idesignfan-03.jpg",
       "tags": [
         "Turbomachinery",
         "Multi-Fidelity",
         "ML"
       ],
-      "body": "다충실도 CFD와 기계학습 대리모델을 이용해 축류·원심 팬을 설계·최적화한다. 사내 iDesignFan 체계를 기반으로 공력 효율을 극대화하면서 소음을 최소화한다.",
+      "body": "다품질 CFD와 기계학습 대리모델을 이용해 축류·원심 팬을 설계·최적화한다. 사내 iDesignFan 체계를 기반으로 공력 효율을 극대화하면서 소음을 최소화한다.",
       "links": [
         {
           "title": "ServUair — 팬 모델 선정 (Fan Model Selection)",
@@ -174,7 +174,7 @@
     },
     {
       "id": "hydraulics",
-      "title": "건설기계 유압·제어",
+      "title": "건설기계 유압 · 군집제어",
       "img": "assets/gallery/swarm-01.jpg",
       "tags": [
         "Hydraulics",
@@ -241,17 +241,17 @@
     {
       "title": "디지털 풍동 · Climate Wind Tunnel",
       "body": "온도·습도·풍속 실시간 모니터링이 가능한 디지털 풍동 시뮬레이션 환경.",
-      "img": "assets/fac-windtunnel.jpg"
+      "img": "assets/fac-windtunnel.png"
     },
     {
       "title": "음향 카메라 · 빔포밍",
       "body": "실내 공간의 소음원 위치를 가시화하는 빔포밍 음향 카메라 측정.",
-      "img": "assets/fac-beamforming.jpg"
+      "img": "assets/fac-beamforming.png"
     },
     {
       "title": "PIV · 유동 가시화",
       "body": "레이저 시트와 입자로 유동 구조를 관찰하는 PIV 및 연기 가시화 장비.",
-      "img": "assets/fac-laser.jpg"
+      "img": "assets/fac-laser.png"
     }
   ],
   "professor": {
@@ -687,7 +687,7 @@
           "caption": "공항 — 미세먼지 발생원"
         },
         {
-          "src": "assets/gallery/dust-04.png",
+          "src": "assets/gallery/dust-04.jpg",
           "caption": "미세먼지 확산 시뮬레이션"
         },
         {
