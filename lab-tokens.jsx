@@ -87,6 +87,19 @@ if (!document.getElementById('fnc-base')) {
       .r-navbar { flex-wrap: wrap !important; padding-top: 14px !important;
         padding-bottom: 14px !important; row-gap: 12px !important; }
       .r-nav { flex-wrap: wrap !important; gap: 18px !important; row-gap: 12px !important; }
+      /* Mobile top bar: compact, and scrolls away instead of sticking */
+      .fnc-navwrap { position: static !important; backdrop-filter: none !important; }
+      .r-navbar { padding-top: 10px !important; padding-bottom: 10px !important;
+        gap: 10px !important; row-gap: 8px !important; }
+      .nav-lockup { height: 30px !important; }
+      .nav-div1 { height: 22px !important; }
+      .nav-title { font-size: 13px !important; }
+      .nav-affil { font-size: 10px !important; margin-top: 1px !important; }
+      .nav-inha { height: 26px !important; }
+      .r-nav { gap: 14px !important; row-gap: 8px !important; font-size: 13px !important; }
+      .r-nav > a { font-size: 13px !important; }
+      .r-nav .lang-toggle { font-size: 11.5px !important; gap: 6px !important; }
+      .nav-div2, .nav-div3 { height: 13px !important; }
       .r-foot-bottom { flex-direction: column !important; gap: 6px !important; }
     }
     @media (max-width: 440px) {
@@ -158,12 +171,13 @@ const HAS_LOGO_FILE = true;
 const LOGO_SRC = (typeof window !== 'undefined' && window.__resolveAsset)
   ? window.__resolveAsset('assets/inha-logo.svg') : 'assets/inha-logo.svg';
 
-function InhaLogo({ dark = false, height = 54 }) {
+function InhaLogo({ dark = false, height = 54, className = '' }) {
   if (HAS_LOGO_FILE) {
     const logo = (
       <img
         src={LOGO_SRC}
         alt="Inha University"
+        className={className}
         style={{ height, width: 'auto', display: 'block' }}
       />
     );
@@ -209,20 +223,20 @@ function FNCNav({ c, active = 'home' }) {
     .map(id => c.nav.find(n => n.id === id))
     .filter(Boolean);
   return (
-    <div style={{ background: 'rgba(252,251,248,0.92)', backdropFilter: 'blur(10px)',
+    <div className="fnc-navwrap" style={{ background: 'rgba(252,251,248,0.92)', backdropFilter: 'blur(10px)',
       color: fg, borderBottom: `1px solid ${T.rule}`,
       position: 'sticky', top: 0, zIndex: 100 }}>
       <div className="r-navbar" style={{ maxWidth: 1320, margin: '0 auto', padding: '16px 56px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 24 }}>
         <a href="#/home" style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
-          <img src="assets/logo-lockup.svg" alt="FNC Lab"
+          <img src="assets/logo-lockup.svg" alt="FNC Lab" className="nav-lockup"
             style={{ height: 44, width: 'auto', display: 'block' }} />
-          <span style={{ width: 1, height: 30, background: dim, opacity: 0.4 }} />
+          <span className="nav-div1" style={{ width: 1, height: 30, background: dim, opacity: 0.4 }} />
           <div style={{ display: 'flex', flexDirection: 'column', lineHeight: 1.22 }}>
-            <span style={{ fontSize: 17, fontWeight: 500, letterSpacing: '-0.018em' }}>
+            <span className="nav-title" style={{ fontSize: 17, fontWeight: 500, letterSpacing: '-0.018em' }}>
               {c.site.labNameShort}
             </span>
-            <span style={{ fontSize: 12.5, color: dim, letterSpacing: '0.01em', marginTop: 2 }}>
+            <span className="nav-affil" style={{ fontSize: 12.5, color: dim, letterSpacing: '0.01em', marginTop: 2 }}>
               {c.site.affiliation}
             </span>
           </div>
@@ -238,12 +252,12 @@ function FNCNav({ c, active = 'home' }) {
               }}>{n.label}</a>
             );
           })}
-          <span style={{ width: 1, height: 14, background: dim, opacity: 0.4 }} />
+          <span className="nav-div2" style={{ width: 1, height: 14, background: dim, opacity: 0.4 }} />
           <LangToggle />
-          <span style={{ width: 1, height: 26, background: dim, opacity: 0.35 }} />
+          <span className="nav-div3" style={{ width: 1, height: 26, background: dim, opacity: 0.35 }} />
           <a href="https://www.inha.ac.kr" target="_blank" rel="noopener noreferrer"
             style={{ display: 'flex', alignItems: 'center' }} aria-label="Inha University">
-            <InhaLogo height={52} />
+            <InhaLogo height={52} className="nav-inha" />
           </a>
         </nav>
       </div>
@@ -256,7 +270,7 @@ function LangToggle() {
   const lang = window.__fncLang || 'ko';
   const set = window.__fncSetLang || (() => {});
   return (
-    <div style={{ display: 'inline-flex', gap: 8, fontSize: 13.5, fontFamily: T.mono }}>
+    <div className="lang-toggle" style={{ display: 'inline-flex', gap: 8, fontSize: 13.5, fontFamily: T.mono }}>
       <a onClick={() => set('en')} style={{
         color: lang === 'en' ? 'inherit' : 'currentColor',
         opacity: lang === 'en' ? 1 : 0.5, cursor: 'pointer',
