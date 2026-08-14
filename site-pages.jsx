@@ -34,7 +34,7 @@ function HomePage({ c, go }) {
     <div>
       {/* Hero */}
       <section style={{ ...wrap, paddingTop: 96, paddingBottom: 120 }}>
-        <div className="r-hero" style={{ display: 'grid', gridTemplateColumns: '1.05fr 0.95fr', gap: 56,
+        <div className="r-hero" style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1.05fr) minmax(0, 0.95fr)', gap: 56,
           alignItems: 'center' }}>
           <div>
             <div style={{ width: 48, height: 3, background: T.blue, marginBottom: 28 }} />
@@ -42,8 +42,8 @@ function HomePage({ c, go }) {
               {c.hero.eyebrow}
             </div>
             <h1 className="r-hero-h1" style={{
-              lineHeight: 1.05, fontWeight: 600, letterSpacing: '-0.03em',
-              marginBottom: isKo ? 10 : 28, whiteSpace: 'nowrap',
+              lineHeight: 1.05, fontWeight: 300, letterSpacing: '-0.03em',
+              marginBottom: isKo ? 10 : 28,
             }}>
               {c.hero.title}
             </h1>

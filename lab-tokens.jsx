@@ -55,6 +55,8 @@ if (!document.getElementById('fnc-base')) {
       transform: translateY(-3px);
       box-shadow: 0 10px 30px rgba(20,33,66,0.10); }
     .fnc-page img { max-width: 100%; }
+    .fnc-page .r-hero-h1 { font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+      font-size: clamp(40px, 4.4vw, 62px); }
 
     /* ---- Responsive ---- */
     @media (max-width: 960px) {
@@ -71,7 +73,7 @@ if (!document.getElementById('fnc-base')) {
       .fnc-head h1 { font-size: clamp(32px, 8.5vw, 46px) !important; }
       .r-hero { grid-template-columns: 1fr !important; gap: 34px !important;
         padding-top: 56px !important; padding-bottom: 72px !important; }
-      .r-hero-h1 { white-space: normal !important; font-size: clamp(30px, 8.5vw, 46px) !important; }
+      .r-hero-h1 { white-space: normal !important; font-size: clamp(34px, 9.6vw, 54px) !important; }
       .r-hero-sub { white-space: normal !important; }
       .r-rlist { grid-template-columns: 1fr !important; }
       .r-high  { grid-template-columns: repeat(2, 1fr) !important; }

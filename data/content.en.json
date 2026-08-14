@@ -386,6 +386,13 @@
   },
   "publications": [
     {
+      "year": "2026",
+      "type": "Book",
+      "title": "Introduction to Construction Machinery Engineering (eBook)",
+      "venue": "Authored (ISBN 979-11-92979-26-7)",
+      "authors": "S. Lee et al."
+    },
+    {
       "year": "2025",
       "date": "2025.12",
       "type": "Conference",
@@ -405,21 +412,63 @@
       "year": "2025",
       "date": "2025.06",
       "type": "Conference",
-      "title": "Multi-curvature design of an automotive cooling fan using vortex-strength distribution",
+      "title": "Multi-curvature design of an automotive cooling fan using vorticity distribution",
       "venue": "KSFM Summer Conference",
       "authors": "T. Yeom et al."
     },
     {
+      "year": "2025",
+      "type": "Journal",
+      "title": "Multi-fidelity Design of Automobile Cooling Fan Using Vorticity Correlation",
+      "venue": "The KSFM Journal of Fluid Machinery",
+      "authors": "S. Lee et al."
+    },
+    {
       "year": "2024",
       "type": "Book",
-      "title": "Multiphysics 3D Analysis",
+      "title": "Multi-physics and Application to 3D Simulation",
       "venue": "Authored (ISBN 979-11-92979-08-3)",
-      "authors": "S. Lee"
+      "authors": "S. Lee et al."
+    },
+    {
+      "year": "2023",
+      "type": "Journal",
+      "title": "Aerodynamic Characteristics Analysis of AI-design Propreller for PAV",
+      "venue": "The KSFM Journal of Fluid Machinery",
+      "authors": "S. Lee et al."
+    },
+    {
+      "year": "2022",
+      "type": "Journal",
+      "title": "A Study on Noise Analysis of Counter-Rotating Propellers for a Manned Drone",
+      "venue": "The KSFM Journal of Fluid Machinery",
+      "authors": "S. Lee et al."
+    },
+    {
+      "year": "2022",
+      "type": "Translation",
+      "title": "Numerical Methods for Engineers (Korean edition)",
+      "venue": "Translated (ISBN 979-11-321-1080-4 93)",
+      "authors": "S. Lee et al."
+    },
+    {
+      "year": "2021",
+      "type": "Journal",
+      "title": "NOx Reduction Analysis from Hybrid De-NOx Facility of Combined Cycle Power Plant",
+      "venue": "The KSFM Journal of Fluid Machinery",
+      "authors": "S. Lee et al."
+    },
+    {
+      "year": "2021",
+      "type": "Journal",
+      "title": "An Experimental Study on the Noise Reduction of Cooling Fans for Four-ton Forklift Machines",
+      "venue": "Journal of Drive and Control",
+      "authors": "S. Lee et al."
     },
     {
       "year": "2021",
       "type": "Book",
-      "title": "Turbomachinery Design",
+      "title": "Fluid Machinery Design and Application",
       "venue": "Authored (ISBN 978-89-91105-96-6)",
       "authors": "S. Lee"
     }

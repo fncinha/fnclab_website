@@ -386,6 +386,13 @@
   },
   "publications": [
     {
+      "year": "2026",
+      "type": "저서",
+      "title": "건설기계공학개론 (eBook)",
+      "venue": "집필 (ISBN 979-11-92979-26-7)",
+      "authors": "이승배 외 3명"
+    },
+    {
       "year": "2025",
       "date": "2025.12",
       "type": "학술대회",
@@ -410,16 +417,58 @@
       "authors": "염태영 외 5명"
     },
     {
+      "year": "2025",
+      "type": "학술지",
+      "title": "Multi-fidelity Design of Automobile Cooling Fan Using Vorticity Correlation",
+      "venue": "The KSFM Journal of Fluid Machinery",
+      "authors": "이승배 외 5명"
+    },
+    {
       "year": "2024",
       "type": "저서",
-      "title": "다중물리 3차원 해석",
+      "title": "Multi-physics and Application to 3D Simulation",
       "venue": "집필 (ISBN 979-11-92979-08-3)",
-      "authors": "이승배"
+      "authors": "이승배 외 1명"
+    },
+    {
+      "year": "2023",
+      "type": "학술지",
+      "title": "Aerodynamic Characteristics Analysis of AI-design Propreller for PAV",
+      "venue": "The KSFM Journal of Fluid Machinery",
+      "authors": "이승배 외 4명"
+    },
+    {
+      "year": "2022",
+      "type": "학술지",
+      "title": "A Study on Noise Analysis of Counter-Rotating Propellers for a Manned Drone",
+      "venue": "The KSFM Journal of Fluid Machinery",
+      "authors": "이승배 외 2명"
+    },
+    {
+      "year": "2022",
+      "type": "역서",
+      "title": "공학도를 위한 수치해석 (Numerical Methods for Engineers)",
+      "venue": "번역 (ISBN 979-11-321-1080-4 93)",
+      "authors": "이승배 외 2명"
+    },
+    {
+      "year": "2021",
+      "type": "학술지",
+      "title": "NOx Reduction Analysis from Hybrid De-NOx Facility of Combined Cycle Power Plant",
+      "venue": "The KSFM Journal of Fluid Machinery",
+      "authors": "이승배 외 2명"
+    },
+    {
+      "year": "2021",
+      "type": "학술지",
+      "title": "An Experimental Study on the Noise Reduction of Cooling Fans for Four-ton Forklift Machines",
+      "venue": "Journal of Drive and Control",
+      "authors": "이승배 외 3명"
     },
     {
       "year": "2021",
       "type": "저서",
-      "title": "유체기계 설계",
+      "title": "Fluid Machinery Design and Application",
       "venue": "집필 (ISBN 978-89-91105-96-6)",
       "authors": "이승배"
     }
