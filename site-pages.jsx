@@ -358,9 +358,12 @@ function ResearchDetailPage({ c, id }) {
         </section>
       )}
 
-      {/* Videos */}
-      {r.videos && r.videos.length > 0 && (
+      {/* Videos + Presentation */}
+      {((r.videos && r.videos.length > 0) || r.presentation) && (
         <section style={{ ...wrap, paddingBottom: 48 }}>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 40, alignItems: 'flex-start' }}>
+          <div>
+          {r.videos && r.videos.length > 0 && (<>
           <div className="eyebrow" style={{ color: T.blue, marginBottom: 16 }}>
             {c.ui ? c.ui.videos : 'Videos'}
           </div>
@@ -392,6 +395,39 @@ function ResearchDetailPage({ c, id }) {
                 </div>
               </a>
             ))}
+          </div>
+          </>)}
+          </div>
+          {r.presentation && (
+            <div>
+              <div className="eyebrow" style={{ color: T.blue, marginBottom: 16 }}>
+                {c.ui ? c.ui.presentation : 'Presentation'}
+              </div>
+              <a href={r.presentation.file} download
+                style={{ display: 'block', width: 360, maxWidth: '100%',
+                  border: `1px solid ${T.rule}`, background: T.paper, overflow: 'hidden' }}>
+                <div style={{ width: '100%', aspectRatio: '16 / 9', background: T.blue,
+                  display: 'flex', flexDirection: 'column', justifyContent: 'space-between',
+                  padding: '20px 22px' }}>
+                  <span className="mono" style={{ fontSize: 11, letterSpacing: '0.12em',
+                    color: 'rgba(255,255,255,0.72)' }}>PPTX</span>
+                  <span style={{ fontSize: 15, lineHeight: 1.45, color: '#fff',
+                    letterSpacing: '-0.012em', textWrap: 'pretty' }}>
+                    {r.presentation.title}
+                  </span>
+                </div>
+                <div style={{ padding: '14px 16px 16px', display: 'flex',
+                  alignItems: 'center', justifyContent: 'space-between' }}>
+                  <span className="mono link-underline" style={{ fontSize: 13, color: T.blue }}>
+                    {c.ui ? c.ui.downloadDeck : 'Download slides'}
+                  </span>
+                  <span className="mono" style={{ fontSize: 12, color: T.ink50 }}>
+                    {r.presentation.meta}
+                  </span>
+                </div>
+              </a>
+            </div>
+          )}
           </div>
         </section>
       )}

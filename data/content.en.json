@@ -134,7 +134,12 @@
           "id": "u2XLh4RsuU8",
           "title": "“Aerodynamic & Aeroacoustic Optimization of Fan Impellers via Multi-Fidelity CFD and ML Design Algorithms” — Invited Lecture, KFMA 2025 Winter Conference"
         }
-      ]
+      ],
+      "presentation": {
+        "title": "Multi-Fidelity Design of a 3D Turbo Centrifugal Fan — iDesignFan Turbo Design Module V4.1",
+        "file": "assets/docs/iDesignFan-turbo-centrifugal.pptx",
+        "meta": "PPTX · 19 slides"
+      }
     },
     {
       "id": "appliance",
@@ -581,51 +586,89 @@
     "resources": "Resources",
     "visitSite": "Visit site",
     "videos": "Videos",
-    "watchVideo": "Watch on YouTube"
+    "watchVideo": "Watch on YouTube",
+    "presentation": "Presentation",
+    "downloadDeck": "Download slides"
   },
   "gallery": [
     {
       "id": "turbo-opt",
       "images": [
         {
-          "src": "assets/gallery/idesignfan-01.jpg",
-          "caption": "iDesignFan — axial"
+          "src": "assets/gallery/deck-01.jpg",
+          "caption": "Cover — Multi-fidelity design of a 3D turbo centrifugal fan (iDesignFan Turbo Design Module V4.1)"
         },
         {
-          "src": "assets/gallery/idesignfan-02.jpg",
-          "caption": "iDesignFan — centrifugal"
+          "src": "assets/gallery/deck-02.jpg",
+          "caption": "Turbo centrifugal fan market overview"
         },
         {
-          "src": "assets/gallery/idesignfan-03.jpg",
-          "caption": "Axial fan CAD model"
+          "src": "assets/gallery/deck-03.jpg",
+          "caption": "3D sweep control versus conventional design"
         },
         {
-          "src": "assets/gallery/idesignfan-05.jpg",
-          "caption": "Centrifugal fan CAD model"
+          "src": "assets/gallery/deck-04.jpg",
+          "caption": "Latin hypercube sampling — design of experiments"
         },
         {
-          "src": "assets/gallery/idesignfan-centrifugal-blade.jpg",
-          "caption": "Centrifugal fan blade-shape design"
+          "src": "assets/gallery/deck-05.jpg",
+          "caption": "Low- and high-fidelity CFD domain definition"
         },
         {
-          "src": "assets/gallery/idesignfan-08.jpg",
-          "caption": "Efficiency by optimization scheme"
+          "src": "assets/gallery/deck-06.jpg",
+          "caption": "Machine-learning optimization — GPR surrogate accuracy"
         },
         {
-          "src": "assets/gallery/idesignfan-axial-blade.jpg",
-          "caption": "Axial fan blade-shape design"
+          "src": "assets/gallery/deck-07.jpg",
+          "caption": "Low-fidelity optimal geometry and vorticity isosurfaces"
         },
         {
-          "src": "assets/gallery/cfd-1.jpg",
-          "caption": "Centrifugal fan flow field (velocity / pressure / vorticity)"
+          "src": "assets/gallery/deck-08.jpg",
+          "caption": "iDesignFan Step 1 — design goal"
         },
         {
-          "src": "assets/gallery/cfd-4.jpg",
-          "caption": "3D flow visualization"
+          "src": "assets/gallery/deck-09.jpg",
+          "caption": "iDesignFan Step 2 — airfoil design parameter input"
         },
         {
-          "src": "assets/links/servuair.jpg",
-          "caption": "ServUair — fan model selection"
+          "src": "assets/gallery/deck-10.jpg",
+          "caption": "iDesignFan Step 2 — blade Bezier curve design"
+        },
+        {
+          "src": "assets/gallery/deck-11.jpg",
+          "caption": "Blade exit angle from the pressure factor"
+        },
+        {
+          "src": "assets/gallery/deck-12.jpg",
+          "caption": "iDesignFan Step 3 — airfoil alignment and parameter input"
+        },
+        {
+          "src": "assets/gallery/deck-13.jpg",
+          "caption": "iDesignFan Step 4 — 3D review and sweep control"
+        },
+        {
+          "src": "assets/gallery/deck-14.jpg",
+          "caption": "iDesignFan Step 5 — 3D modeling (SolidWorks)"
+        },
+        {
+          "src": "assets/gallery/deck-15.jpg",
+          "caption": "iDesignFan Step 5 — 3D modeling (NX)"
+        },
+        {
+          "src": "assets/gallery/deck-16.jpg",
+          "caption": "iDesignFan Step 5 — TurboGrid and CFX domain export"
+        },
+        {
+          "src": "assets/gallery/deck-17.jpg",
+          "caption": "High-fidelity verification model matrix"
+        },
+        {
+          "src": "assets/gallery/deck-18.jpg",
+          "caption": "Q-criterion vortex structures and outlet total-pressure distribution"
+        },
+        {
+          "src": "assets/gallery/deck-19.jpg",
+          "caption": "Verification of the multi-fidelity design — best optimal design"
         }
       ]
     },

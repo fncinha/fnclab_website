@@ -134,7 +134,12 @@
           "id": "u2XLh4RsuU8",
           "title": "'다품질 CFD와 M.L 설계 알고리즘을 이용한 홴 임팰러의 공력 및 소음최적 설계' 2025 KFMA 동계학술대회 강연"
         }
-      ]
+      ],
+      "presentation": {
+        "title": "3D 터보 원심홴의 다품질 설계 — iDesignFan Turbo Design Module V4.1",
+        "file": "assets/docs/iDesignFan-turbo-centrifugal.pptx",
+        "meta": "PPTX · 19 슬라이드"
+      }
     },
     {
       "id": "appliance",
@@ -581,51 +586,89 @@
     "resources": "참고 링크",
     "visitSite": "사이트 방문",
     "videos": "영상",
-    "watchVideo": "유튜브에서 영상 보기"
+    "watchVideo": "유튜브에서 영상 보기",
+    "presentation": "프레젠테이션",
+    "downloadDeck": "슬라이드 내려받기"
   },
   "gallery": [
     {
       "id": "turbo-opt",
       "images": [
         {
-          "src": "assets/gallery/idesignfan-01.jpg",
-          "caption": "iDesignFan 축류형"
+          "src": "assets/gallery/deck-01.jpg",
+          "caption": "표지 — 3D 터보 원심홴의 다품질 설계 (iDesignFan Turbo Design Module V4.1)"
         },
         {
-          "src": "assets/gallery/idesignfan-02.jpg",
-          "caption": "iDesignFan 원심형"
+          "src": "assets/gallery/deck-02.jpg",
+          "caption": "터보 원심홴 시장 개요"
         },
         {
-          "src": "assets/gallery/idesignfan-03.jpg",
-          "caption": "축류형 Fan CAD 모델"
+          "src": "assets/gallery/deck-03.jpg",
+          "caption": "3D Sweep 제어와 기존 설계 비교"
         },
         {
-          "src": "assets/gallery/idesignfan-05.jpg",
-          "caption": "원심형 Fan CAD 모델"
+          "src": "assets/gallery/deck-04.jpg",
+          "caption": "Latin Hypercube Sampling — 설계 표본 구성"
         },
         {
-          "src": "assets/gallery/idesignfan-centrifugal-blade.jpg",
-          "caption": "원심형 Fan 블레이드 형상 설계"
+          "src": "assets/gallery/deck-05.jpg",
+          "caption": "저품질·고품질 CFD 해석 영역 정의"
         },
         {
-          "src": "assets/gallery/idesignfan-08.jpg",
-          "caption": "최적화 기법별 효율 비교"
+          "src": "assets/gallery/deck-06.jpg",
+          "caption": "기계학습 기반 최적화 기법 — GPR 대리모델 정확도"
         },
         {
-          "src": "assets/gallery/idesignfan-axial-blade.jpg",
-          "caption": "축류형 Fan 블레이드 형상 설계"
+          "src": "assets/gallery/deck-07.jpg",
+          "caption": "저품질 모델 최적 형상과 와도 등가면 비교"
         },
         {
-          "src": "assets/gallery/cfd-1.jpg",
-          "caption": "원심팬 유동장 (속도·압력·와도)"
+          "src": "assets/gallery/deck-08.jpg",
+          "caption": "iDesignFan Step 1 — 설계 목표 입력"
         },
         {
-          "src": "assets/gallery/cfd-4.jpg",
-          "caption": "3차원 유동 가시화"
+          "src": "assets/gallery/deck-09.jpg",
+          "caption": "iDesignFan Step 2 — 익형 설계 변수 입력"
         },
         {
-          "src": "assets/links/servuair.jpg",
-          "caption": "ServUair — 팬 모델 선정 화면"
+          "src": "assets/gallery/deck-10.jpg",
+          "caption": "iDesignFan Step 2 — 블레이드 Bezier 곡선 설계"
+        },
+        {
+          "src": "assets/gallery/deck-11.jpg",
+          "caption": "Pressure Factor에 따른 날개 출구각 계산"
+        },
+        {
+          "src": "assets/gallery/deck-12.jpg",
+          "caption": "iDesignFan Step 3 — 익형 정렬 및 변수 입력"
+        },
+        {
+          "src": "assets/gallery/deck-13.jpg",
+          "caption": "iDesignFan Step 4 — 3D 검토 및 Sweep 제어"
+        },
+        {
+          "src": "assets/gallery/deck-14.jpg",
+          "caption": "iDesignFan Step 5 — 3D 모델링 (SolidWorks)"
+        },
+        {
+          "src": "assets/gallery/deck-15.jpg",
+          "caption": "iDesignFan Step 5 — 3D 모델링 (NX)"
+        },
+        {
+          "src": "assets/gallery/deck-16.jpg",
+          "caption": "iDesignFan Step 5 — TurboGrid·CFX 도메인 내보내기"
+        },
+        {
+          "src": "assets/gallery/deck-17.jpg",
+          "caption": "고품질 검증 모델 구성표"
+        },
+        {
+          "src": "assets/gallery/deck-18.jpg",
+          "caption": "Q-criterion 와구조 및 출구 전압력 분포"
+        },
+        {
+          "src": "assets/gallery/deck-19.jpg",
+          "caption": "iDesignFan 다품질 설계 검증 결과 — 최적 설계안"
         }
       ]
     },
