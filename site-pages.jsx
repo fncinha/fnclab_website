@@ -355,6 +355,17 @@ function ResearchDetailPage({ c, id }) {
               </a>
             ))}
           </div>
+          {r.filmClip && (
+            <div style={{ marginTop: 32 }}>
+              <video src={r.filmClip.src} controls playsInline preload="metadata"
+                style={{ display: 'block', width: '100%', maxWidth: 760,
+                  border: `1px solid ${T.rule}`, background: '#000' }}></video>
+              {r.filmClip.caption && (
+                <div style={{ fontSize: 14, color: T.ink70, lineHeight: 1.55,
+                  marginTop: 10, maxWidth: 760 }}>{r.filmClip.caption}</div>
+              )}
+            </div>
+          )}
         </section>
       )}
 
