@@ -134,12 +134,7 @@
           "id": "u2XLh4RsuU8",
           "title": "“Aerodynamic & Aeroacoustic Optimization of Fan Impellers via Multi-Fidelity CFD and ML Design Algorithms” — Invited Lecture, KFMA 2025 Winter Conference"
         }
-      ],
-      "presentation": {
-        "title": "Multi-Fidelity Design of a 3D Turbo Centrifugal Fan — iDesignFan Turbo Design Module V4.1",
-        "file": "assets/docs/iDesignFan-turbo-centrifugal.pptx",
-        "meta": "PPTX · 19 slides"
-      }
+      ]
     },
     {
       "id": "appliance",
@@ -586,9 +581,7 @@
     "resources": "Resources",
     "visitSite": "Visit site",
     "videos": "Videos",
-    "watchVideo": "Watch on YouTube",
-    "presentation": "Presentation",
-    "downloadDeck": "Download slides"
+    "watchVideo": "Watch on YouTube"
   },
   "gallery": [
     {

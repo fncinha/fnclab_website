@@ -134,12 +134,7 @@
           "id": "u2XLh4RsuU8",
           "title": "'다품질 CFD와 M.L 설계 알고리즘을 이용한 홴 임팰러의 공력 및 소음최적 설계' 2025 KFMA 동계학술대회 강연"
         }
-      ],
-      "presentation": {
-        "title": "3D 터보 원심홴의 다품질 설계 — iDesignFan Turbo Design Module V4.1",
-        "file": "assets/docs/iDesignFan-turbo-centrifugal.pptx",
-        "meta": "PPTX · 19 슬라이드"
-      }
+      ]
     },
     {
       "id": "appliance",
@@ -586,9 +581,7 @@
     "resources": "참고 링크",
     "visitSite": "사이트 방문",
     "videos": "영상",
-    "watchVideo": "유튜브에서 영상 보기",
-    "presentation": "프레젠테이션",
-    "downloadDeck": "슬라이드 내려받기"
+    "watchVideo": "유튜브에서 영상 보기"
   },
   "gallery": [
     {
