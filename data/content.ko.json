@@ -193,7 +193,11 @@
           "url": "assets/docs/3D-project-intro.pdf",
           "desc": "3D 기반 건설기계 설계·해석 전문인력양성사업 소개 자료 (KIAT·KOCEMA)."
         }
-      ]
+      ],
+      "filmClip": {
+        "src": "assets/video/swarm-demo.mp4",
+        "caption": "건설기계 군집제어 실증 — 다수 장비의 협조 작업 시연"
+      }
     },
     {
       "id": "micro-dust",
@@ -504,7 +508,8 @@
       "year": "2022–2024",
       "title": "PAV 상용화를 위한 25kW급 전기추진 시스템 핵심부품 개발",
       "sponsor": "중소벤처기업부(MSS) · ㈜경인기계",
-      "role": "총괄책임"
+      "role": "총괄책임",
+      "url": "assets/docs/PAV-electric-propulsion.pptx"
     },
     {
       "year": "2018–2021",

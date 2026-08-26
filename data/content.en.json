@@ -193,7 +193,11 @@
           "url": "assets/docs/3D-project-intro.pdf",
           "desc": "Program overview for the 3D-based construction-equipment design & analysis workforce project (KIAT · KOCEMA)."
         }
-      ]
+      ],
+      "filmClip": {
+        "src": "assets/video/swarm-demo.mp4",
+        "caption": "Swarm-control field demonstration — cooperative operation of multiple machines"
+      }
     },
     {
       "id": "micro-dust",
@@ -504,7 +508,8 @@
       "year": "2022–2024",
       "title": "Core components of a 25 kW electric propulsion system for PAV commercialization",
       "sponsor": "MSS · Kyungin Machinery",
-      "role": "Overall PI"
+      "role": "Overall PI",
+      "url": "assets/docs/PAV-electric-propulsion.pptx"
     },
     {
       "year": "2018–2021",
